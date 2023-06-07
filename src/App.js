@@ -18,9 +18,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
+        
         {/* <Route path='/' Component={Home} />
         <Route path='/services' Component={Services} />
         <Route path='/marketplace' Component={Marketplace} /> */}
+        
         <Route path='/home' Component={Home} />
         <Route path='/services' Component={Services} />
         <Route path='/about'  Component={About} />
@@ -29,6 +31,7 @@ function App() {
         
       </Routes>
     </Router>
+    
 
     
   );

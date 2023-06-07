@@ -1,13 +1,17 @@
 import React from 'react';
+import { FaBell } from 'react-icons/fa';
 // './ContactUsPage.css';
 
 const Services = () => {
   return (
 <div class="container">
 
-<h1 class="my-4">Job Listing
-  
+<h1 class="my-4" >Job Listing
+<button className="notification-button" style={{marginLeft: '78%'}}>
+        <FaBell />
+      </button>
 </h1>
+
 
 <div class="row">
   <div class="col-lg-4 col-sm-6 mb-4">

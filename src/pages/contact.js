@@ -7,6 +7,9 @@ const ContactUsPage = () => {
   <div class="container">
     <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
       <div class="col-12 col-lg-6">
+      <img src="https://lasnem.org/wp-content/uploads/2020/12/contact-us-1536x1536.png" 
+        alt="placeholder"
+        style={{width: '100%', height:'auto', borderRadius: '40px'}}/>
         {/* <img class="img-fluid rounded" loading="lazy" src="./assets/img/contact-img-1.jpg" alt=""> */}
       </div>
       <div class="col-12 col-lg-6">
